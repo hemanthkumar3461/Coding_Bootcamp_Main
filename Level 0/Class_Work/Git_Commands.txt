@@ -1,0 +1,52 @@
+
+GIT & Github: Here can store our code for safety and colloborative work.
+
+-----------------------------------------------------------------------------------GIT Commands------------------------------------------------------------------------------------------------- 
+
+git init -> To initialize GIT repositry
+git add . -> Add all the files from the folder to GIT
+git commit -m "commit msg"
+git remote add origin "GIT REPO Link" ->point your local git to remote location
+git push -u origin master -->Pushing files to github cloud(U means upstream)
+git status - It will show the file status in the GIT repositry
+git clone "git repo link" - Download files from remote area to local system
+git pull - Download latest files from remote to local system
+git rm --cached "filename" -> To remove file from staging area
+git ls-files -> displaying all files available in staging area
+git checkout -b "branchname" -> Creating a new branch to work on code(Creates duplicate copy to work) - Main copy already in action, dont disturb
+git log ->Displays the entire history
+git stash -> saves all work done in local system from staging area. Note: Files need to be in staging area & no need to commit as well
+git stash apply/pop - To recover previosuly working files from local system
+git checkout master -> come to main branch
+git rm -f sample.txt -> to remove file from staging area
+touch .gitignore -> A file will be created in your local folder, U can add files which you want to ignore getting github to it
+You can create this gitignore and add it to your repository to ignore files which dont want by adding them in it.
+git diff -> Compares and displays difference between latest version and old version
+SSH key - To replace authentication using username and password. We can setup SSH key for authentication purpose to make things simple.
+
+
+
+--------------------------------------------------------------------------------------ubuntu------------------------------------------------------------------------------------------------------
+List files - ls 
+Clear console - clear
+To see all previous commands - history
+
+-----------------------------------------------------------------------------Deploying or Hosting website using Heroku------------------------------------------------------------------------
+
+Heroku is a place where one can temporarily host a website
+
+Commands that needs to used in right location(CMD)
+
+:::Commands:::
+
+npm i express - npm install express( Installing express.js from npm(Playstore))
+node index.js - To start server and use browser to lauch webiste
+npm start
+git init
+git add .
+git status
+git commit -m "Comment"
+heroku login
+heroku create
+git push heroku HEAD:main
+ 

@@ -1,0 +1,250 @@
+JS can be executed on browser or can be be executed standalone using Node.JS
+-----------------------------------------------------------------------------------------Javascript--------------------------------------------------------------------------------------------
+Java is completely different from javascript
+It can be used in both front-end and back-end development.
+Frontend is on browser,purpose is to manipulate the DOM content(DOM is internal skeleton structure) - Engineers care about this
+
+Backend(server side) is using NODE JS
+JS can used to build mobile apps
+
+
+Commands:
+
+1)console.log("Hello world");
+Prints (Hello world) in the console
+
+2)alert("Hi");
+Creates or displays a popup alret on screen to remind us or confirm us regarding a particular task or event
+
+3)document
+
+DOM: Document object model
+
+The HTML file that we see on-screen is not the same how it is seen by a browser. A browser understands it in DOM structure.
+
+DOM structure is similar to modularity, where we can break all commands into tree elements. Inorder to showcase it in a tree structure.
+
+4)window 
+
+Whatver we see on screen when we open a browser is known as window.
+
+5)Whatever we want to write in internal JS we need to put it in <script></script>.
+<script>
+document.getElementById("FirstParagraph").innertext = "Hi";
+</script>
+whatever we write in between script is JS code.
+The above command is to manupulate the original text with inner text.
+
+We can create a new .JS file to write our code inside it(Visual studio code) and then later access it from the HTML file
+
+6)<script src="firstcode.js">
+By using this command we can access JS file from HTML.
+
+7)For commenting out in JS we use // for single line
+
+Concept: Variables
+
+Variables are like containers where can store our data
+
+In JS we should use var infront of variable to make it local for that particular file code.
+If we dont use var then it can accessed by all files in the blog.
+
+VAR restricts it to local but dont allow variables for global use.
+Ex 1: 
+var x=2;
+var y=4;
+var z=x+y;
+var u=x-y;
+console.log(z);
+console.log(u);
+console.log(x*y);
+console.log(x/y);
+console.log(x%y);
+Here we performed all arthimetic operations
+
+Concept of power:
+
+2**3(Two_CUBE) = 2*2*2 = 8
+Ex 2:
+console.log(2**3)
+
+JavaScript is a case-sensitive language.
+There is difference between capital and lower-case letters
+
+Concept of datatypes:
+
+It is basically telling what type of data we will be using in order to write code
+Boolean: True or False
+Number: Integer
+String: Collection of characters
+Undefined: If we just declare and left without defining it then it is called undefined
+Null: Absense of an object value
+Object(key-value pairs): An object is a collection of properties, and a property is an association between a name (or key) and a value.
+Some objects are pre-defined or else you can define your own objects.
+
+Boolean datatypes:
+
+var ok="true";
+var notok="false";
+console.log(notok);
+Output is false
+
+string datatype:
+
+var str="The is a human";
+console.log(str);
+
+Undefined datatype:
+
+var k;
+console.log(k);
+
+Null datatype:
+
+var i=null;
+
+Object datatype:
+//objects: There are represented in Key-Value pairs
+var student={"name:raju","marks":90."ispassed":true}
+
+Objects are defined using key value pairs
+JSON: javascript object notation
+
+typeof
+
+console.log(typeof(ok));  --> This returns the type of data(number, chat, floar)
+
+
+increment operator & decrement operator
+
+++ & --
+
+Pre increment operator ++a or --a(Make modification first and then pass it to the next instruction)
+
+Post increment operators a++ or a--(First pass it to next command then make modification)
+
+
+10)console.log(40/0);  
+This gives infynity
+
+-40/0 -> -Infynity
+
+11)console.log(-40/0)
+This gives -infynity
+
+12)Not operator
+console.log(!true); -> False
+console.log(!flase); -> True
+console.log(!0); -> True
+Only 0, False & undefined are falsy values
+
+Relational operators:
+
+13) == and ===
+The main objective is to validate LHS = RHS
+
+console.log(0==false); -> True
+console.log(0===false); -> False
+
+14) Less than or Less than or equal to or greater than or greater than or equal to
+
+console.log(2>1); 
+console.log(33>=33);
+console.log(1<2);
+console.log(12<=11);
+
+All the mentioned above returns truthy values
+
+15) AND & OR operations
+
+When both conditions are true then output will be true -> and
+When one of conditon satisfies output will be true -> or
+
+
+AND
+console.log(9 && 10); -> o/p is 10
+//If first one is a truthy value value then return second one
+//If first one is a falsy value then return first one
+console.log(0 && true); -> o/p is 0
+
+OR
+console.log(10 || 9); -> o/p is 10
+//When one of conditons satisfy then output will be true
+
+
+16)To extract number from string
+console.log(Number("989"));
+console.log(Number.ParseInt("123.45")); -> only number is returned
+console.log(Number("KA9897")); - Nan - Not a number will be printed
+We can check whether given input is not a number or not
+console.log(isNaN("KA9897")); - True
+
+Strings:
+
+17)
+var strg1 = "i";
+var strg2 = "love";
+var strg3 = strg1+" "+strgr2+"coding"; -Concatenation
+console.log(strg3);
+console.log("hi" === 'hi'); -> True//double vs single quotes
+
+//string length
+18)
+var strg4="Hello world";
+console.log(strg4.length);
+For accessing a unique element 
+console.log(strg4.charAt(11)); -> Returns "d"
+another way of acessing unique element is by using index
+console.log(strg4.indexOf("w")); -> It will return index of the character in the string 
+
+//Manupulating strings
+
+19)Slicing or substring
+var str="I am good"
+console.log(str.slice(1)); -> Removes I and rest all printed
+console.log(str);
+console.log(str.slice(4-)); -> Prints last 4 letters
+console.log(str.substr(1,5)); -> Prints from 1 to 5 characters
+
+20)
+Converting small case into upper case
+console.log("GOOD".toLowerCase());
+console.log("good".toUpperCase());
+
+21)
+Ojects
+
+var obj1={}; ->object literal
+var capitals = {"Andhra":"amaravathi","telangana":"hyderabad"} //JSON onject
+
+2 ways to acess objects in JAVAScript
+
+console.log(capitals.Andhra);
+console.log(capital["telangana"]);
+
+amaravathi & hyderabad will be printed
+
+
+22)
+
+Call by value and call by refernece
+In call by value we will be passing value
+In call by refernece we will be passing adress of that value
+
+var sampleObj={"name":"raja"};
+var sampleObj2 =sampleObj; //adress is passed not value
+sampleObj2.name="hemanth";
+console.log(sampleObj);
+console.log(sampleObj2);
+
+23)JS
+
+
+
+
+
+
+
+
+
+

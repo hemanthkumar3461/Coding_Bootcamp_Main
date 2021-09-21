@@ -1,0 +1,59 @@
+p{
+    color: black;
+}
+body{
+    background-color:pink;
+    background-image: url('pink.jpg');
+    background-size: cover;
+    background-position: center;
+}
+a{
+    color: black;
+}
+#set{
+    
+    display: flex;
+    justify-content: space-between;
+    
+}
+#tan{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+ 
+#cen{
+    display:flex;
+    justify-content: center;
+}
+#high{
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content:space-evenly;
+
+}
+#pp{
+    display: flex;
+    flex-direction:column;
+    
+}
+#cot 
+{   
+    justify-content:center;
+    border: solid 2px black;
+    background-color:hotpink;
+    width: fit-content;
+    height: fit-content;
+
+
+}
+#sun{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#p1{
+
+    
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<body
+  style="background-image: url('https://images.pexels.com/photos/3050970/pexels-photo-3050970.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=100%');">
+  <div id="p1"></div>
+  <h2>Lets Rockinn!!!</h2>
+
+  <p>The main purpose of this quiz is to assess your interests in finding a pet.</p>
+
+  <p>Choose a option from the below questionere</p>
+  <form onsubmit="return display()">
+    <h4>Question 1: Your favourite color?</h4>
+      <input type="radio" id="color1" name="fav_color" value="black">
+      <label for="color1">Black</label><br>
+      <input type="radio" id="color2" name="fav_color" value="white">
+      <label for="color2">white</label><br>
+      <input type="radio" id="color3" name="fav_color" value="gold">
+      <label for="color3">gold</label><br><br>
+
+    <h4>Question 2: your favourite animal</h4>
+      <input type="radio" id="animal1" name="fav_animal" value="dog">
+      <label for="animal1">dog</label><br>
+      <input type="radio" id="animal2" name="fav_animal" value="cat">
+      <label for="animal2">cat</label><br>
+      <input type="radio" id="animal3" name="fav_animal" value="parrot">
+      <label for="animal3">parrot</label><br><br>
+    <input type="submit" value="Submit">
+
+
+  </form>
+  </div>
+
+<script>
+function display(){
+  document.getElementById("p1").innerHTML = "your resposes have been submitted";
+  return false;
+}
+</script>
+
+</body>
+
+</html>
