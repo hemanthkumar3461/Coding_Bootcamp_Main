@@ -1,0 +1,133 @@
+
+GIT & Github Here can store our code for safety and colloborative work.
+
+-----------------------------------------------------------------------------------GIT Commands------------------------------------------------------------------------------------------------- 
+
+git init - To initialize GIT repositry
+git add . - Add all the files from the folder to GIT
+git commit -m commit msg
+git remote add origin GIT REPO Link -point your local git to remote location
+git push -u origin master --Pushing files to github cloud(U means upstream)
+git status - It will show the file status in the GIT repositry
+git clone git repo link - Download files from remote area to local system
+git pull - Download latest files from remote to local system
+git rm --cached filename - To remove file from staging area
+git ls-files - displaying all files available in staging area
+git checkout -b branchname - Creating a new branch to work on code(Creates duplicate copy to work) - Main copy already in action, dont disturb
+git log -Displays the entire history
+git stash - saves all work done in local system from staging area. Note Files need to be in staging area & no need to commit as well
+git stash applypop - To recover previosuly working files from local system
+git checkout master - come to main branch
+git rm -f sample.txt - to remove file from staging area
+touch .gitignore - A file will be created in your local folder, U can add files which you want to ignore getting github to it
+You can create this gitignore and add it to your repository to ignore files which dont want by adding them in it.
+git diff - Compares and displays difference between latest version and old version
+SSH key - To replace authentication using username and password. We can setup SSH key for authentication purpose to make things simple.
+
+
+
+--------------------------------------------------------------------------------------ubuntu------------------------------------------------------------------------------------------------------
+List files - ls 
+Clear console - clear
+To see all previous commands - history
+
+-----------------------------------------------------------------------------Deploying or Hosting website using Heroku------------------------------------------------------------------------
+
+Heroku is a place where one can temporarily host a website
+
+Commands that needs to used in right location(CMD)
+
+Commands
+
+npm i express - npm install express( Installing express.js from npm(Playstore))
+node index.js - To start server and use browser to lauch webiste
+npm start
+git init
+git add .
+git status
+git commit -m Comment
+heroku login
+heroku create
+git push heroku HEADmain
+ 
+
+
+
+
+
+GIT_Commands_Level_1:
+
+GIT is distributed version control system
+
+md or mkdir "foldername" : This is for creating a new folder
+cd : For opening folder and entering using command promt
+ls : Show the list of files
+ls-ll: Reports the number of files present in that folder
+ls-la: (Hidden file) which stores versions data of the files
+git init: Intitiate git repository
+cd .git : To open the git folder(if you do ls now, We can see Hidden files(Version information))
+tree : To see details of versions
+touch "filename" : To add or create file to your directory location inside folder
+git status: To know status of files
+git add . : After adding or giving files to git, the files are said to be in stagging area.
+git commit -m "comment" : File is saved GIT repo and we call this as snapshot
+rm "filename" : To remove file from folder
+To remove or move file from stagging area to working area before commiting
+We use
+
+git rm --cached "filename" : To move file from stagging area to working area
+echo "Hello" >> "filename" : Echo is to write or add some content code into the file
+cat "filename" : To observe content of file or read any file we use cat
+
+We can also skip stagging area and directly enter snapshot from working area using:
+git commit -a -m "comment" : Before using this command we need to add it for first time but from 2nd time no need to add
+
+git branch : It displays branch in which you are present
+git log : To see all saves and commits of past history
+
+To add changes we create a new branch,
+git checkout -b "new branch name or develop" : this creates a develop branch
+git checkout "branchname" : To naviagte between branches
+
+How to merge 2 branches?
+Go to branch where you want make merge
+1)git checkout main
+2)git merge "branchname or develop" : This is what you want merge to main branch
+3)git push : we can see added files in git repo
+
+git push origin play : Push to that particular branch
+
+git clone "url" : To download files to local from remote repo
+git pull: git fetch + git merge
+git pull origin "branchname" : To get latest changes
+
+after creating new branch and made changes we need to do ACP commands and puch the code to repo for merge and conflict removing process
+
+Always make a pull from main branch before you start
+
+git branch -a : To see all exisiting branches
+
+git branch -d : To remove or delete branch
+or
+git branch -D : To remove or delete branch(forced deletion)
+
+git merge main : To add main branch updated contents into current working branch from current branch(operations needs to performed)
+
+Resolving conflicts is done through git bash, git hub and git hub local by manaully operating
+
+git mv Hello.txt Bye.txt : To rename an existing file
+
+C1<-C2<-C3
+
+To see prior commits 
+git checkout HEAD~2
+
+   
+
+Staging areas:
+Working area:
+snapshot:
+
+
+A good HTML/CSS developer gives importance to design, performance and security.
+
