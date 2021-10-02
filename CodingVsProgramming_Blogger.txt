@@ -1,0 +1,30 @@
+     
+
+
+
+
+
+👉 Coding is a skill like any other, It is the act of traslating logic into machine understandable instructions(Code) using any computer language. This doesn't require any critical thinking or complex analysis. But whereas in the case of programming we need to do a lot of prior thinking or analysis to find the best solution using appropriate optimized algorithms to reduce time and space complexity. So, that we can make things work better for us.
+
+👉 We need our algorithms to run fast and give quick responses because in our daily life we deal with lot of complex systems. They are very dynamic, where the output needs to generated very quickly to make an instant decision.
+
+👉 Coding can be done using different computer languages like C, C++, Python and Java whereas programming mainly focuses on right problem solving approach.
+
+👉 In coding, we don't care much about the approach but whereas in programming it is our job to find and implement the best solution. Here, we are defining our own approach to solve a problem. Approches vary from programmer to programmer.
+
+👉 Programming includes series of processes like Understanding user requirements, Building foundational knowledge to that specific domain, Problem solving(Finding right algorithm), Writing code and Checking whether all requirements are met or not(Testing and Debugging). So, we can consider coding as a important part or subset of programming. 
+
+👉 Both coding and programming deals with software development but we also need to know that programming additionally requires complex problem solving skills and good knowledge on optimization algorithms.
+
+👉 Coding is little easy when compared to programming because it only requires logic and syntax but programming requires optimized approach, right functionality setup, logic, syntax, optimized techniques and algorithms.
+
+👉 Coding is a way of doing software but programming is the best way of doing software.
+
+👉 According to me, programming gives better exposure into computer science than coding.
+
+👉 Finally, From this we understood that coding is a part of programming. It is one among the important stage in programming process.
+
+👉Click on me to know more
+
+
+

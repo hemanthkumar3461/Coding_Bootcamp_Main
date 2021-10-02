@@ -1,0 +1,28 @@
+
+
+
+
+
+Hey guys, This article is written in such a way that even a person who doesn't know GIT or GITHUB also can understand and learn about it.
+👉 What is GIT?
+
+👉 What is GITHUB?
+
+👉 What is a repository?
+
+👉 How are things stored in Local and Remote Repos? 
+
+👉 What is the use?
+
+👉 What is a Merge conflict?
+
+👉 It it bad to have merge conflicts?
+
+👉 How to avoid those?
+
+👉 How can it be resolved?
+
+
+
+
+
