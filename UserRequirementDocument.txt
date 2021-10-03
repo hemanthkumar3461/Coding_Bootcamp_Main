@@ -1,0 +1,53 @@
+BUSINESS REQUIRMENTS:
+
+As a admin, i want a website where users can plan, book and enjoy their trips, partys, colloborations for both personal and professional occassions.
+We can provide some discounts for bulky trip from a single customer. If they are above(30 - Discount 10%).
+I want my website to be immediately updated whenever there was a change in users end as well as admin's end
+All the data regarding food, hotels, Trasport and location information needs to be updated in daily basis according to the situation of their availability status
+I need a website where my end users can their plan trips on their own using all information provided. A little amount can charged from them for information.
+They can use this website and make their journey process smooth and easy.
+There are 3 types of packages available for different types of customers:
+1)Basic - Silver plan
+2)Intermediate - Gold plan
+3)Advanced - Platinum plan
+This website should consist of multiple webpages. The major webpages requires home(register portal), about us, contact us, trip with us, holiday spots, special  travel(individual or group), travel code.
+My company provides spot tourism services, hotels & accommodation, food, party occasions, special types etc.
+Your choice of preferance are encouraged.
+As a client i want my website to be good looking and very attractive with simple light colors.
+And i also want my website to give high performance. So all the bookings and trasactions can be handled smooth.
+Tourism services available for: 15 countries
+Hotels: 5 best priced hotels with good quality
+Food: 5 restaurants with location special dishes
+Party: bachelor's , company, family, friends, random
+Holiday mode: cruise , flight, adventure, safari, beach, amusement parks
+The user needs to fill a registration form where some basic details are collected.
+In order to better understand the customer needs our business development agent will get in contact with them in their chosen time of choice preference.
+There needs to 4 time choices in engage with customers
+Trip needs to be any one of the below displayed countries
+They can opt for special trip if they don't have their preferred location mentioned below 
+Special trip costs double the amount than usual trips.
+Special trips are needed to be planned before 3 months of time from date of journey.
+If all group trips are full/occupied, Users who came after that need to fill a form so that they will be notified when they have trip openings for group trips.
+People can update from basic to intermediate and advanced plan prior before the date of journey.
+
+TECHNICAL REQUIREMENTS:
+
+Website loading time should be less than 2 seconds.
+Are the content must be secure.
+Website needs to be smooth and safe.
+Website needs to be well maintained and performance should good.
+All the data must be optimized.
+Prefer light baground colors for user convienance
+Prefer good tourism images to make the website more attaractive
+Provide right details when clicked or requested from user
+Provide contact details immediately to the admin via a notification message 
+Data needs to be up to date
+Any issues can resolved with immediate action.
+Provide us with good software.
+Database needs to updated on requirment basis.
+Information needs to structured in proper way for the ease to access.
+Serve the website with past feedbacks
+Reviews and comments are to be refered prior to publish.
+Content needs to verified with admin before publish anytime.
+Admin access can be given to 5 persons to access or add or delete anything from the website.
+
