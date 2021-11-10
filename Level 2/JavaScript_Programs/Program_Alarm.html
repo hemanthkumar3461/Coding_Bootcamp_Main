@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body onload="startTime()">
+<div id="txt"></div>
+<script>
+function startTime(){
+    var today = new Date();
+    document.getElementById("txt").innerHTML = today.toLocaleTimeString();
+    var t = setTimeout(function(){startTime()},500);
+}
+
+<div id="tpick">
+  <h1 class="header">
+  </h1>
+  <div id="tpick-h"></div>
+  <div id="tpick-m"></div>
+  <div id="tpick-s"></div>
+  <div>
+    <input type="button" value="Set" id="tset"/>
+    <input type="button" value="Reset" id="treset" disabled/>
+  </div>
+</div>
+</script>
+
+</body>
+</html>
+
+
+

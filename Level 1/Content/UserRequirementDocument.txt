@@ -1,4 +1,3 @@
-
 BUSINESS REQUIRMENTS:
 
 As a admin, i want a website where users can plan, book and enjoy their trips, partys, colloborations for both personal and professional occassions.
