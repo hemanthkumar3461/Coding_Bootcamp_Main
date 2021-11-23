@@ -1,0 +1,106 @@
+What is the output of the following programs?
+
+Q1. What is the value of an uninitialized variable?
+null,
+undefined,
+0,
+None Of the Above
+
+1) Undefined
+
+
+Q2. let digitsArray=[1,2,3,4];
+delete(digitsArray[2]);
+console.log(digitsArray.length);
+3
+4
+2
+"None Of the Above"
+
+2) 4 - You need to use splice instead of delete for removing items in an array. This is because using delete does not change the length of an array. That is why the length is still the same because the undefined
+
+
+Q3. What is the value of typeof(undefined)?
+null,
+undefined,
+0,
+None of the Above
+
+3) null
+
+
+Q4. let digits=[1,2,3,4];
+digits.splice(2,1);
+console.log(digits.length);
+3,
+4,
+2
+None Of the Above
+
+4) 3 - At position 2(Index) remove 1 item
+
+
+Q5. typeof(null) = ?
+“null",
+"undefined",
+"object",
+"None of the Above" 
+
+5) object - null is a special value in JavaScript that represents a missing object.However, typeof is misleading in case of null : typeof null evaluates to 'object'. 
+null and undefined are somehow equivalent, still, null represents a missing object, while undefined uninitialized state.
+
+
+Q6. What is the value of '5'+1
+"51”,
+51,
+"6”,
+6
+
+6) 51 - When we add character+Integer then it becomes string type. This 51 is a string value
+
+
+Q7. How '===' compares operands ?
+"Checks Value",
+"Checks Type",
+"Checks value and Type",
+"None of the Above"
+
+7) Checks value and type
+
+
+Q8. Which of the following is chrome brower's javascript Engine ?"
+"Spidermonkey",
+"V8",
+"Chakra",
+"None of the above"
+
+8) V8
+
+
+Q9. Are global variables allowed in strict mode?
+“Allowed",
+"Not Allowed",
+"Patially allowed",
+"None of the above"
+
+9) Not allowed - Strict mode - To bypass some features. Advantages: strict mode helps you find errors sooner, before they become bigger problems, and it forces you to write better code.
+---->New browsers operate on strict mode, so they will restrict use of global variables. Global variables created inside a function is are not directly accessible<----
+
+
+Q10. Write a program to reverse contents of an array.
+Eg: Input: [“banana”, “apple”,”Melons”]
+Output: [“Melons”, “apple”, “banana”]
+
+10) const array1 =  ['banana', 'apple','Melons'];
+console.log(array1);
+const array2 = array1.reverse();
+console.log(array2);
+
+or
+
+arr = [1, 2, 3, 4];
+arr1 = [];
+for (let i = arr.length - 1; i >= 0; i--) {
+    arr1.push(arr[i]);
+}
+console.log(arr1);

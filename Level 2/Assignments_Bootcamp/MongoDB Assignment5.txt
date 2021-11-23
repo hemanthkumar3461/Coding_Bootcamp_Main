@@ -1,0 +1,105 @@
+1. What is the abbreviation for SQL?
+a. Structured Query Language <---
+b. Semantic Query Language
+c. None of the above
+
+2. Mongodb is a ___________ database?
+a.SQL
+b.NoSQL <---
+
+3. The default port to run Mongodb is ________________
+a. 21017
+b. 27017 <---
+
+4. Which NPM module we use to connect to mongodb
+a. Mongodb <---
+b. Mongodatabase
+c. Mongo
+
+5. What is the command to start a Mongodb database?
+5) mongo
+
+6. How do you change the default database folder location?
+6) mongod --dbpath="<PATH of your desired directory>"
+
+7. What is the command to create a database in Mongodb?
+7) use <database name>
+
+8. Imagine a collection of docs with a salary field. Write a command to find all the
+documents where salary is more than 20000
+8) db.collectionname.find({"salary":{$gt:20000}})
+
+9. Imagine a collection of docs with salary and experience fields. Write a mongodb query
+to match all documents where salary is more than 20000 or experience is more than 10
+years.(one of the conditions to be met)
+9) db.collectionname.find( { $or: [ { salary: { $gt: 20000 } }, { experience: { $gt: 10 } ] } )
+
+10. What is BSON? How is it different from JSON? (This is not discussed in class. Spend
+half an hour and write a couple of differences that you understand from online resources)
+
+10) BSON is designed to be fast to encode and decode. BSON is a superset of JSON with some more data types, most importantly binary byte array. It is a serialization format used in MongoDB.
+BSON is designed as a binary representation of JSON data, with specific extensions for broader applications, and optimized for data storage and retrieval. One particular way in which BSON differs from JSON is in its support for some more advanced types of data.
+
+11. What is _id field in Mongodb?
+11) It is a unique number provided to uniquely identify records in the collections. It can be provided manually or computer generated.
+
+12. What is the maximum size of a Mongodb document?
+12) Maximum document size allowed is 16MB
+
+13. Mongodb stores data in rows and columns
+a.True
+b.False <---(Documents)
+
+14. Mongodb stores data in collections and documents
+a. True <---
+b.False
+
+15, What do you mean by a transaction in database terms? Write a few sentences
+explaining the same.
+
+15) In a database management system, a transaction is a single unit of logic or work, sometimes made up of multiple operations. Any logical calculation done in a consistent mode in a database is known as a transaction
+
+16. Does Mongodb support Transactions?
+
+16) MongoDB is not compatible for transactions. No, it does't.
+
+17. What is Mongo Shell?
+
+17) The mongo shell is an interactive JavaScript interface to MongoDB. You can use the mongo shell to query and update data as well as perform administrative operations.
+
+18. What is Mongo Compass?
+
+18) Compass is an Mongodb IDE for implementing queries.
+
+19. Write a Mongodb query to find distinct values of a field?
+
+19) db.collection.distinct(<value>)
+
+20. How can I avoid the “_id” field in a query result?
+
+20) db.collection.find({},{_id:false})
+
+21. What are the stages in a Mongodb aggregation pipeline?
+
+21) $project.
+$match.
+$group.
+$sort.
+$skip & $limit.
+$first & $last.
+$unwind.
+
+22. What happens if one of the stages in the Mongodb aggregation pipeline fails? Explain
+with an example
+
+23. What is the purpose of indexing in Mongodb?
+
+23) Indexing helps us access things quickly. Indexes support the efficient execution of queries in MongoDB. Without indexes, MongoDB must perform a collection scan, i.e. scan every document in a collection, to select those documents that match the query statement.
+
+24. Maximum number of indexes allowed in a Mongodb database?
+
+24) 64 Indexes
+
+25. What do you mean by a compound index in Mongodb?
+
+25)compound indexes are those indexes where a single index field contains references to multiple fields. In MongoDB, the compound index can contain a single hashed index field, if a field contains more than one hashed index field then MongoDB will give an error.

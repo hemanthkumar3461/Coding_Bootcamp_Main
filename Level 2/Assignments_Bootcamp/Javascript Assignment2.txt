@@ -1,0 +1,75 @@
+What is the output of the following programs?
+
+var type can re-declared and re-defiened
+But let and const are block scoped, Let can redeclared but cant be assigned. Const can't be redeclared or redesigned.
+
+1. let x=10;
+let x=20;
+console.log(x)
+
+1) Can't declare x again.
+var declarations are globally scoped or function scoped while let and const are block scoped
+var keyword is attached to the window object but not let.
+
+
+2. var a=10;
+let a=5;
+console.log(a)
+
+2) a is already declared
+
+
+3. let b=5;
+b=6;//global variable
+console.log(b)
+
+3) 6 
+
+
+4. let c=5;
+console.log(c+d);
+let d=10;
+
+4)Cant access d before intialization-Nan
+
+
+5. const e=5
+e=10;
+
+5) Already e is assigned to a constant variable
+constant is fixed to a particular fixed value. It cant be changed once defined.
+
+
+6. let greetingsArr=[“Hi”,”Bye”]
+let tempArr = greetingsArr;
+console.log(tempArr == greetingsArr )
+console.log(tempArr === greetingsArr)
+
+6)True, True(Type and value are same)
+
+
+7. let arr=[2,3,5]
+console.log(arr.length)
+arr[10]= 99;
+console.log(arr.length)
+
+7) 3, 11(Index value becomes value 11) - This will append all empty elements
+
+8. let greetingsArr=[“Hi”,”Bye”]
+console.log(greetingsArr.pop())
+
+8) "Bye" - will get popped out because it is present at the end of array. "Hi" will be still present in the array.
+
+
+9. let greetingsArr=[“Hi”,”Bye”]
+greetingsArr.push(function(){console.log(“GoodBye”)})
+greetingsArr[2]();
+
+9) "Goodbye" - Get's appended in the end of the list
+
+
+10. let arr = [“g”,”o”,”o”,”d”];
+console.log(arr.join());
+
+10) g,o,o,d - type is undefined - The join() method creates and returns a new string by concatenating all of the elements in an array (or an array-like object), separated by commas or a specified separator string. 
+If the array has only one item, then that item will be returned without using the separator.
