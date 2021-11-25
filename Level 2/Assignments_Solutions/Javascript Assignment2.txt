@@ -30,7 +30,7 @@ console.log(b)
 console.log(c+d);
 let d=10;
 
-4)Cant access d before intialization-Nan
+4)Cant access d before intialization-error
 
 
 5. const e=5

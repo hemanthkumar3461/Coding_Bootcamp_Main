@@ -9,7 +9,7 @@ fn();
 2. let fn1 = ()=>return 10;
 fn1();
 
-2) Unexpected token "return"
+2) Unexpected token "return" - only one parameter is accepted not even return is allowed along with 10
 
 
 3. let fn2 = ()=>{return 10;}

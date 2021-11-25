@@ -102,4 +102,4 @@ with an example
 
 25. What do you mean by a compound index in Mongodb?
 
-25)compound indexes are those indexes where a single index field contains references to multiple fields. In MongoDB, the compound index can contain a single hashed index field, if a field contains more than one hashed index field then MongoDB will give an error.
+25) compound indexes are those indexes where a single index field contains references to multiple fields. In MongoDB, the compound index can contain a single hashed index field, if a field contains more than one hashed index field then MongoDB will give an error.
