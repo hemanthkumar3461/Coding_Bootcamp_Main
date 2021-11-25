@@ -17,7 +17,7 @@ b. Mongodatabase
 c. Mongo
 
 5. What is the command to start a Mongodb database?
-5) mongo
+5) mongod
 
 6. How do you change the default database folder location?
 6) mongod --dbpath="<PATH of your desired directory>"
@@ -54,7 +54,7 @@ b.False <---(Documents)
 a. True <---
 b.False
 
-15, What do you mean by a transaction in database terms? Write a few sentences
+15. What do you mean by a transaction in database terms? Write a few sentences
 explaining the same.
 
 15) In a database management system, a transaction is a single unit of logic or work, sometimes made up of multiple operations. Any logical calculation done in a consistent mode in a database is known as a transaction
@@ -91,6 +91,8 @@ $unwind.
 
 22. What happens if one of the stages in the Mongodb aggregation pipeline fails? Explain
 with an example
+
+22) The efficiency of query optimization is decreased.
 
 23. What is the purpose of indexing in Mongodb?
 
