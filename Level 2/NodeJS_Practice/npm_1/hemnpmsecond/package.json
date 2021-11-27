@@ -1,0 +1,17 @@
+{
+  "name": "hemanpmsecond",
+  "version": "1.0.0",
+  "description": "This is our second npm module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sub"
+  ],
+  "author": "hemanth",
+  "license": "ISC",
+  "dependencies": {
+    "is-number": "^7.0.0"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "hemanpmfirst",
+  "version": "1.0.0",
+  "description": "This is my module",
+  "main": "sumof.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sum"
+  ],
+  "author": "hemanth",
+  "license": "ISC",
+  "dependencies": {
+    "is-number": "^7.0.0"
+  }
+}
