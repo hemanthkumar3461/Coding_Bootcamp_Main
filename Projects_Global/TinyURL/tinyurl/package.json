@@ -1,0 +1,15 @@
+{
+  "name": "tinyurl",
+  "version": "1.0.0",
+  "description": "This will tinify your URLs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "karthik.coder01",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^4.2.0"
+  }
+}
